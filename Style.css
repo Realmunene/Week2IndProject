@@ -1,0 +1,61 @@
+body{
+    width: 99%;
+    background-color: black;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.nav ul{
+    display: flex;
+    
+}
+.nav ul li{
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 10px;
+}
+.login{
+    display: flex;
+    margin: 13px;
+    width: 20%;
+}
+.login button{
+    color: white;
+    background-color: rgb(248, 95, 39);
+    padding: 6%;
+    text-align: center;
+    height: 40px;
+    margin: 5%;
+    border: none;
+}
+.home{
+    background-image: url;
+}
+.width{
+    height: 2px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 4%;
+    color: white;
+}
+
+.col h2{
+    text-align: center;
+}
+.col ul li{
+    list-style-type: none;
+    text-align: left;
+    
+}
+.copyright{
+    text-align: center;
+    color: white;
+}
