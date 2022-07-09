@@ -1,11 +1,11 @@
 body{
     width: 99%;
-    background-color: black;
+    background-color: rgb(2, 2, 2);
 }
 .heading{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(8, 8, 8);
     color: white;
     height: 80px;
     padding-left: 4%;
@@ -13,7 +13,6 @@ body{
 }
 .nav ul{
     display: flex;
-    
 }
 .nav ul li{
     list-style-type: none;
@@ -33,12 +32,145 @@ body{
     height: 40px;
     margin: 5%;
     border: none;
+} 
+.backgrnd{
+    background-color: rgb(161, 160, 160);
+}
+.row1st{
+    background-image: url(images/image\ 1.png);
+    background-size: contain;
+    background-position: right;
+    height: 450px;
+}
+.img{
+    width: 500px;
 }
 .home{
-    background-image: url;
+    display: flex;
+    justify-content: center;
+    padding: 34px;
+}
+.home h2{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home button{
+    color: white;
+    background-color: rgb(248, 95, 39); 
+    border: none;
+    padding: 10px;
+}
+.product{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.product div{
+    text-align: left;
+}
+.pngp{
+    width: 120px;
+    height: 100px;
+}
+.lft{
+    text-align: left;
+    margin-left: 11%;
+    text-decoration-line: underline;
+}
+.float{
+    display: flex;
+    
+}
+.rowMain{
+    text-align: center;
+}
+.p1img{
+    display: flex;
+    align-items: center;
+}
+
+.rowMain{
+    background-color: white;
+    margin-top: 0px;
+}
+.rowA{
+    display: flex;
+    justify-content: space-around;  
+}
+.lst i{
+        color: rgb(128, 125, 125);
+}
+.cola{
+  background-color: rgb(240, 238, 238); 
+  margin: 20px;
+  width: 300px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0px 0px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1); 
+}
+.star{
+    text-align: center;
+    display: flex;
+}
+.name{
+    display: flex;
+}
+.fa-solid{
+    color: red;
+    margin: 10px;
+}
+.more{
+    text-align: right;
+    padding-right: 30px;
+    padding: 0px 40px 15px;
+}
+.col1{
+    text-align: center;
+    display: block;
+    color: white;
+    margin: 20px;
+}
+.wod h3{
+    font-size: 23px;
+}
+.wod p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+}
+.colB{
+    background-color: white;
+    text-align: left;
+    margin: 0px;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.colB p{
+    padding: 20px;
+}
+.word{
+    color: rgb(17, 16, 16);
+    border: none;
+    height: 28px;
+    
 }
 .width{
     height: 2px;
+    background-color: white;
+}
+.word1{
+    background-color: rgb(248, 95, 39);  
+    border: none;
+    height: 28px; 
+    color: white;
+    padding: auto;
 }
 .footer{
     display: flex;
@@ -46,16 +178,41 @@ body{
     margin: 4%;
     color: white;
 }
-
-.col h2{
-    text-align: center;
+.logo{
+    padding: 10px;
+}
+.col{
+    text-align: left;
+}
+.pos{
+   text-align: center; 
 }
 .col ul li{
     list-style-type: none;
-    text-align: left;
-    
+    padding: 10px 0px;
+}
+.row{
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .copyright{
     text-align: center;
     color: white;
+    margin: 0px;
+}
+.btnA{
+    display: flex;
+    justify-content: space-between;
+}
+.colm{
+    text-align: center;
+    margin: auto;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+button{
+    text-align: center;
 }
