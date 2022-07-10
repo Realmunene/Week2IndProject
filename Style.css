@@ -79,30 +79,51 @@ body{
 .lft{
     text-align: left;
     margin-left: 11%;
-    text-decoration-line: underline;
+    
 }
 .float{
     display: flex;
-    
+    justify-content: space-between;
+    background-color: rgb(252, 250, 248);
+    margin-right: 20%;
+    position: absolute;
+    margin-left: 33%;
+    box-shadow: 2px 2px 10px;
+    margin-bottom: 20%;
+}
+.rw{
+padding: 7%;
 }
 .rowMain{
-    text-align: center;
+    
+    background-color: white;
+    margin-top: 0px;
 }
 .p1img{
     display: flex;
     align-items: center;
+    padding: 8%;
+    font-size: large;
 }
-
-.rowMain{
-    background-color: white;
-    margin-top: 0px;
+.text h3{
+    font-size: xx-large;
+}
+span{
+    text-decoration: underline 2px orangered;
+    
+}
+.cnt{
+    text-align: center;
+}
+.cnt p{
+    font-size: larger;
 }
 .rowA{
     display: flex;
     justify-content: space-around;  
 }
 .lst i{
-        color: rgb(128, 125, 125);
+    color: rgb(128, 125, 125);
 }
 .cola{
   background-color: rgb(240, 238, 238); 
